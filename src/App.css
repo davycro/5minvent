@@ -1,0 +1,71 @@
+.App-container {
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-flow: nowrap;
+  flex-flow: nowrap;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.App-brand {
+  color: #5755d9;
+  left: 1.5rem;
+  position: fixed;
+  top: .85rem;
+}
+.App-brand > h2 {
+  display: inline;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.App-sidebar {
+  flex: 0 0 auto;
+  position: relative;
+  transform: none;
+  width: 12rem;
+  background: #f8f9fa;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  top: 0;
+  transition: transform .25s ease;
+  z-index: 200;
+}
+
+.App-sidebar-nav {
+  bottom: 1.5rem;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  padding: .5rem 1.5rem;
+  position: fixed;
+  top: 3.5rem;
+  width: 12rem;
+}
+
+.Article {
+  padding: 0 4rem;
+  flex: 1 1 auto;
+  height: 100%;
+  width: calc(100vw - 12rem);
+  display: block;
+  margin-bottom: 1000px;
+}
+
+.Article-title {
+  color: #414857;
+  line-height: 1.8rem;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.showNotes {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
