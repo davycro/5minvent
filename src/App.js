@@ -12,7 +12,7 @@ import './App.css'
 
 const Home = () => (
   <div className="Article">
-    <h3 className="Article-title">Welcome</h3>
+    <h3 className="Article-title">Getting started</h3>
     <YoutubeVideo src="uL3VU0XAEFY" />
   </div>
 )
@@ -67,16 +67,12 @@ const App = () => (
     <div className="App-container">
 
       <aside className="App-sidebar">
-        <div className="App-brand">
-          <h2>
-            5 Minute Vent
-          </h2>
-        </div>
+        <Link to="/" className="App-brand">
+          <div className="Brand-logo"></div>
+          <div className="Brand-text">5 Minute Vent</div>
+        </Link>
         <div className="App-sidebar-nav">
           <ul className="nav">
-            <li className="nav-item">
-              <Link to="/">Getting Started</Link>
-            </li>
             <li className="nav-item">
               <Link to="/initial-settings">Initial Settings</Link>
             </li>
