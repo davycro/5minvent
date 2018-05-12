@@ -8,6 +8,7 @@ import {
 
 import AssistControl from './pages/AssistControl.js'
 import Oxygenation from './pages/Oxygenation.js'
+import PressureSupport from './pages/PressureSupport.js'
 
 import YoutubeVideo from './YoutubeVideo.js'
 
@@ -31,13 +32,6 @@ const TidalVolume = () => (
   <div className="Article">
     <h3 className="Article-title">Tidal volume</h3>
     <YoutubeVideo src="Uo43VOkKRXY" />
-  </div>
-)
-
-const PressureSupport = () => (
-  <div className="Article">
-    <h3 className="Article-title">Pressure support</h3>
-    <YoutubeVideo src="bDy2006JC0g" />
   </div>
 )
 
