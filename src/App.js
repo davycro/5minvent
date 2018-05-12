@@ -7,6 +7,9 @@ import {
 
 
 import AssistControl from './pages/AssistControl.js'
+import Oxygenation from './pages/Oxygenation.js'
+
+import YoutubeVideo from './YoutubeVideo.js'
 
 import './App.css'
 
@@ -21,13 +24,6 @@ const InitialSettings = () => (
   <div className="Article">
     <h3 className="Article-title">Initial settings</h3>
     <YoutubeVideo src="2Ez3dmYb9rQ" />
-  </div>
-)
-
-const Oxygenation = () => (
-  <div className="Article">
-    <h3 className="Article-title">Oxygenation</h3>
-    <YoutubeVideo src="1i9cbJKdtQo" />
   </div>
 )
 
@@ -51,15 +47,6 @@ const SIMV = () => (
     <YoutubeVideo src="ST623cb2_-c" />
   </div>
 )
-
-const YoutubeVideo = (props) => {
-  const src = `https://www.youtube.com/embed/${props.src}?rel=0`
-  return(
-    <div class="video-responsive">
-      <iframe width="560" height="315" src={src} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-  )
-}
 
 const App = () => (
   <Router>
