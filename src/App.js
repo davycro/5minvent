@@ -9,6 +9,7 @@ import {
 import AssistControl from './pages/AssistControl.js'
 import Oxygenation from './pages/Oxygenation.js'
 import PressureSupport from './pages/PressureSupport.js'
+import SIMV from './pages/SIMV.js'
 
 import YoutubeVideo from './YoutubeVideo.js'
 
@@ -35,12 +36,6 @@ const TidalVolume = () => (
   </div>
 )
 
-const SIMV = () => (
-  <div className="Article">
-    <h3 className="Article-title">SIMV</h3>
-    <YoutubeVideo src="ST623cb2_-c" />
-  </div>
-)
 
 const App = () => (
   <Router>
