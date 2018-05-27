@@ -1,5 +1,37 @@
 import React from 'react'
 import YoutubeVideo from '../YoutubeVideo.js'
+import styled from 'styled-components';
+
+const RowOfTwoFigures = styled.div`
+  display: flex;
+  flex-wrap: row;
+  width: 100%;
+  margin-bottom: 2rem;
+`;
+
+const Left = styled.div`
+  width: 50%;
+  padding-right: 2rem;
+`;
+
+const Right = styled.div`
+  width: 50%;
+`;
+
+const Img = styled.img`
+  display: block;
+  max-width: 100%;
+  max-height: 300px;
+`;
+
+const Figure = (props) => (
+  <figure className="figure">
+    <Img src={props.src} />
+    <figcaption className="figure-caption">
+      {props.caption}
+    </figcaption>
+  </figure>
+)
 
 const AssistControl = () => (
   <div className="Article">
@@ -21,10 +53,10 @@ const AssistControl = () => (
     <h4>Example</h4>
     <pre class="code">
       <code>
-        RR on vent: 12
-        Vt: 500
-        Additional breaths by patient: 8
-
+        RR on vent: 12<br/>
+        Vt: 500 mL<br/>
+        Additional breaths by patient: 8<br/>
+        <br/>
         Total RR: 20
       </code>
     </pre>
@@ -33,13 +65,26 @@ const AssistControl = () => (
 
     <pre class="code">
       <code>
-        RR x Vt = 20 x 500mL = 10,000mL or 10L
+        RR x Vt = 20 x 500 mL = 10,000 mL or 10 L
       </code>
     </pre>
 
     <p>
       We used 20 instead of 12 because the patient is breathing 20 times per minute and each respiration is guaranteed the set tidal volume.
     </p>
+
+    <RowOfTwoFigures>
+      <Left>
+        <Figure
+          src="assist_control/figure1.png"
+          caption="Figure 1. Tidal volume for an ideal body weight." />
+      </Left>
+      <Right>
+        <Figure
+          src="assist_control/figure2.png"
+          caption="Figure 2. PEEP table" />
+      </Right>
+    </RowOfTwoFigures>
 
   </div>
 )
