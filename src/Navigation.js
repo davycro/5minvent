@@ -141,7 +141,6 @@ const MenuButton = styled.button`
   white-space: nowrap;
 
   margin-left: auto;
-  margin-right: .5rem;
 
   &:hover {
     background: #f1f1fc;
