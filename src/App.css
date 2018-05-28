@@ -1,13 +1,3 @@
-.App-container {
-  display: flex;
-  display: -ms-flexbox;
-  -ms-flex-flow: nowrap;
-  flex-flow: nowrap;
-  height: 100%;
-  position: relative;
-  width: 100%;
-}
-
 .App-brand {
   color: #5755d9;
   left: 1.5rem;
@@ -62,15 +52,6 @@
   position: fixed;
   top: 3.5rem;
   width: 12rem;
-}
-
-.Article {
-  padding: 0 4rem;
-  flex: 1 1 auto;
-  height: 100%;
-  width: calc(100vw - 12rem);
-  display: block;
-  margin-bottom: 1000px;
 }
 
 .Article-title {

@@ -3,7 +3,7 @@ import YoutubeVideo from '../YoutubeVideo.js'
 import './Oxygenation.css'
 
 const Oxygenation = () => (
-  <div className="Article">
+  <div>
 
     <h3 class="Article-title">Oxygenation</h3>
 

@@ -3,7 +3,7 @@ import YoutubeVideo from '../YoutubeVideo.js'
 
 const SIMV = () => (
 
-  <div className="Article">
+  <div>
     <h3 className="Article-title">SIMV</h3>
     <YoutubeVideo src="ST623cb2_-c" />
 

@@ -3,7 +3,7 @@ import YoutubeVideo from '../YoutubeVideo.js'
 
 const PressureSupport = () => (
 
-<div className="Article">
+<div>
 
   <h3 class="Article-title">Pressure Support</h3>
 

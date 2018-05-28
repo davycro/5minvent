@@ -34,7 +34,7 @@ const Figure = (props) => (
 )
 
 const AssistControl = () => (
-  <div className="Article">
+  <div>
 
     <h3 class="Article-title">Assist Control</h3>
     <YoutubeVideo src="iQaXYBewar8" />
