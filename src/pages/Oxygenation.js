@@ -1,15 +1,11 @@
 import React from 'react'
-import YoutubeVideo from '../YoutubeVideo.js'
+import Article from './Article.js'
 import './Oxygenation.css'
 
 const Oxygenation = () => (
-  <div>
+  <Article title="Oxygenation" youtubeSrc="1i9cbJKdtQo">
 
-    <h3 class="Article-title">Oxygenation</h3>
-
-    <YoutubeVideo src="1i9cbJKdtQo" />
-
-    <h3 class="showNotes">Show notes</h3>
+    <h3 className="showNotes">Show notes</h3>
 
     <p>
       We increase the oxygen levels in the blood by increasing two variables: (1) the inspired concentration of oxygen (<strong> FiO2</strong>), and
@@ -186,7 +182,7 @@ const Oxygenation = () => (
 
     </strong>
 
-  </div>
+  </Article>
 )
 
 export default Oxygenation

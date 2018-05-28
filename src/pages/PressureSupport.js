@@ -1,15 +1,11 @@
 import React from 'react'
-import YoutubeVideo from '../YoutubeVideo.js'
+import Article from './Article.js'
 
 const PressureSupport = () => (
 
-<div>
+<Article title="Pressure support" youtubeSrc="bDy2006JC0g">
 
-  <h3 class="Article-title">Pressure Support</h3>
-
-  <YoutubeVideo src="bDy2006JC0g" />
-
-  <h3 class="showNotes">Show notes</h3>
+  <h3 className="showNotes">Show notes</h3>
 
   <h6>
     Spontaneous Mode; CPAP with Pressure Support, Pressure Support Ventilation.
@@ -59,7 +55,7 @@ const PressureSupport = () => (
 
 
 
-</div>
+</Article>
 
 
 )

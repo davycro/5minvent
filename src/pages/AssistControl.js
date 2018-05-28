@@ -1,6 +1,7 @@
 import React from 'react'
-import YoutubeVideo from '../YoutubeVideo.js'
 import styled from 'styled-components';
+
+import Article from './Article.js';
 
 const RowOfTwoFigures = styled.div`
   display: flex;
@@ -34,12 +35,9 @@ const Figure = (props) => (
 )
 
 const AssistControl = () => (
-  <div>
+  <Article title="Assist Control" youtubeSrc="iQaXYBewar8">
 
-    <h3 class="Article-title">Assist Control</h3>
-    <YoutubeVideo src="iQaXYBewar8" />
-
-    <h3 class="showNotes">Show notes</h3>
+    <h3 className="showNotes">Show notes</h3>
     <p>
       Assist Control = A/C = CMV
     </p>
@@ -86,7 +84,7 @@ const AssistControl = () => (
       </Right>
     </RowOfTwoFigures>
 
-  </div>
+  </Article>
 )
 
 export default AssistControl

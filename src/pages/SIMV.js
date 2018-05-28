@@ -1,13 +1,11 @@
 import React from 'react'
-import YoutubeVideo from '../YoutubeVideo.js'
+import Article from './Article.js'
 
 const SIMV = () => (
 
-  <div>
-    <h3 className="Article-title">SIMV</h3>
-    <YoutubeVideo src="ST623cb2_-c" />
+  <Article title="SIMV" youtubeSrc="ST623cb2_-c">
 
-    <h3 class="showNotes">Show notes</h3>
+    <h3 className="showNotes">Show notes</h3>
 
     <h5>SIMV</h5>
 
@@ -49,7 +47,7 @@ const SIMV = () => (
       Example 1
     </h5>
 
-    <pre class="code">
+    <pre className="code">
       <code>
         Vent Settings       Measured values<br/>
           RR - 12               RR (tot) - 20<br/>
@@ -60,7 +58,7 @@ const SIMV = () => (
     <p>
       What is the Minute Ventilation?<br/>
     </p>
-    <pre class="code">
+    <pre className="code">
       <code>
         Minute Ventilation = RR x Vt
       </code>
@@ -70,7 +68,7 @@ const SIMV = () => (
 
       Since we have a RR set at 12, we know the patient will get 12 respirations at the set Vt of 500mL. No more, no less. These set breaths contribute 6L to our minute ventilation.
     </p>
-    <pre class="code">
+    <pre className="code">
       <code>
         500mL x 12 respirations = 6L
       </code>
@@ -80,7 +78,7 @@ const SIMV = () => (
 
       First, I need to calculate how many breaths per minute (BPM) are spontaneous. If I have 20 BPM total and I know that 12 of these are vent breaths, that leaves 8 spontaneous respirations.
     </p>
-    <pre class="code">
+    <pre className="code">
       <code>
         20 - 12 = 8.
       </code>
@@ -88,7 +86,7 @@ const SIMV = () => (
     <p>
       So now I know that my spontaneous respirations are 8 at a Vt of 300. When I multiply these, it shows the spontaneous respirations add an additional 2.4L to my minute ventilation.
     </p>
-    <pre class="code">
+    <pre className="code">
       <code>
         300mL x 8 respirations = 2.4L
       </code>
@@ -96,7 +94,7 @@ const SIMV = () => (
     <p>
       Finally, I can add these 2 values together to see my total minute ventilation.
     </p>
-    <pre class="code">
+    <pre className="code">
       <code>
         6L + 2.4L = 8.4L
       </code>
@@ -109,7 +107,7 @@ const SIMV = () => (
     <p>
       Let us say in the above patient, I get the ABG below.
     </p>
-    <pre class="code">
+    <pre className="code">
       <code>
       pH - 7.20<br/>
       pCO2 - 65<br/>
@@ -125,7 +123,7 @@ const SIMV = () => (
     <p>
       (before change)
     </p>
-    <pre class="code">
+    <pre className="code">
       <code>
       PS = 10 cm H2O<br/>
       Spont Vt = 300 mL<br/>
@@ -137,7 +135,7 @@ const SIMV = () => (
     <p>
       (after change)
     </p>
-    <pre class="code">
+    <pre className="code">
       <code>
       PS = 15 cm H2O<br/>
       Spont Vt = 500 mL<br/>
@@ -161,7 +159,7 @@ const SIMV = () => (
     The patient is receiving 12 respirations with a Vt of 500mL, and 8 respirations with a Vt of 300mL. For every 1 BPM that I increase the set RR, I increase the minute ventilation by 200mL up to the total RR.
     </p>
 
-    <pre class="code">
+    <pre className="code">
       <code>
         (12 x 500 mL) + (8 x 300 mL) = 8.4 L<br/>
         <br/>
@@ -176,7 +174,7 @@ const SIMV = () => (
     </p>
 
 
-    <pre class="code">
+    <pre className="code">
       <code>
         22 x 500 mL = 11 L<br/>
         <br/>
@@ -189,7 +187,7 @@ const SIMV = () => (
     </p>
 
 
-  </div>
+  </Article>
 
 )
 

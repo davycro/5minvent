@@ -1,9 +1,8 @@
 import React from 'react'
+import Article from './Article.js';
 
 const About = () => (
-  <div>
-
-    <h3 class="Article-title">About</h3>
+  <Article title="About">
 
     <p>
       My name is Steven Haywood. Upon graduating High School I joined the Army and they trained me to become a Respiratory Therapist. I practiced as a Respiratory Therapist for eight years prior to medical school. I am now a practicing Emergency Medicine Physician.
@@ -33,7 +32,7 @@ const About = () => (
       Dr. Jeffrey Atherton - Model
     </p>
 
-  </div>
+  </Article>
 )
 
 export default About
