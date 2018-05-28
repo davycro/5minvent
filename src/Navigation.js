@@ -27,6 +27,7 @@ const Container = styled.div`
 
   background: #f8f9fa;
   padding: .5rem 1rem;
+  width: 100%;
 
   //
   // large screen style = fixed sidebar
