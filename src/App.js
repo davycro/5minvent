@@ -18,6 +18,7 @@ import PressureSupport from './pages/PressureSupport.js'
 import SIMV from './pages/SIMV.js'
 import About from './pages/About.js'
 import Article from './pages/Article.js'
+import InitialSettings from './pages/InitialSettings.js'
 
 //
 // UTILITIES
@@ -31,10 +32,7 @@ const Home = () => (
     youtubeSrc="uL3VU0XAEFY" />
 )
 
-const InitialSettings = () => (
-  <Article title="Initial settings"
-    youtubeSrc="2Ez3dmYb9rQ" />
-)
+
 
 const TidalVolume = () => (
   <Article title="Tidal volume"
