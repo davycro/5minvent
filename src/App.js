@@ -19,6 +19,7 @@ import SIMV from './pages/SIMV.js'
 import About from './pages/About.js'
 import Article from './pages/Article.js'
 import InitialSettings from './pages/InitialSettings.js'
+import Home from './pages/Home.js'
 
 //
 // UTILITIES
@@ -26,12 +27,6 @@ import YoutubeVideo from './YoutubeVideo.js'
 import ScrollToTop from './ScrollToTop.js'
 
 import './App.css'
-
-const Home = () => (
-  <Article title="Own the ventilator"
-    youtubeSrc="uL3VU0XAEFY" />
-)
-
 
 
 const TidalVolume = () => (
