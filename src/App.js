@@ -19,6 +19,7 @@ import SIMV from './pages/SIMV.js'
 import About from './pages/About.js'
 import Article from './pages/Article.js'
 import InitialSettings from './pages/InitialSettings.js'
+import TidalVolume from './pages/TidalVolume.js'
 import Home from './pages/Home.js'
 
 //
@@ -28,11 +29,6 @@ import ScrollToTop from './ScrollToTop.js'
 
 import './App.css'
 
-
-const TidalVolume = () => (
-  <Article title="Tidal volume"
-    youtubeSrc="Uo43VOkKRXY" />
-)
 
 const Container = styled.div`
   height: 100vh;
